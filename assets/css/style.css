@@ -138,14 +138,18 @@ header div.container {
     }
 
     .card h3 {
-        font-family: 'Georgia', Times, 'Times New Roman', serif;
         background-color: #4aaaa4;
-        color: #ffffff;
-        font-weight: normal;
         padding: 0.5rem;
         position: relative;
         top: 75%;
         margin: 0;
+    }
+
+    .card h3 a {
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        color: #ffffff;
+        font-weight: normal;
+        display: block;
     }
 
     #hangman {
