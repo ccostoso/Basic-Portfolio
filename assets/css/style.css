@@ -1,0 +1,184 @@
+/* Universal Styles */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/dot-grid.png");
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    border-bottom: solid 2px #cccccc;
+    /* display: none; */
+}
+
+header div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* Header h1 */
+    header h1 {
+        background-color: #4aaaa4;
+        color: #ffffff;
+        display: inline-block;
+        margin: 0;
+        padding: 1.5rem;
+    }
+
+    /* Navigation */
+    nav {
+        display: inline-block;
+        margin: 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-left: .75rem;
+        color: #dddddd;
+    }
+
+/* Post-Header */
+
+.postheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 5rem);
+}
+
+    /* Main and Section */
+
+    section {
+        margin: 1rem 0;
+        padding: 1.5rem;
+        background-color: #ffffff;
+        border: solid 1px #dddddd;
+    }
+
+    article {
+        margin-top: 1rem;
+    }
+
+    h2 {
+        margin: 0;
+        padding: 1rem 0;
+        color: #4aaaa4;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+    }
+
+    #bio-image {
+        max-width: 150px;
+        float: left;
+        margin-right: 1rem;
+    }
+
+    /* Footer */
+
+    footer {
+        text-align: center;
+        background-color: #666666;
+        color: #ffffff;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border-top: solid 2px #dddddd;
+    }
+
+    footer p {
+        margin: 0;
+        height: 3rem;
+    }
+
+/* Portfolio Styles */
+
+    /* Cards */
+
+    .cards {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .card {
+        width: 300px;
+        height: 200px;
+        margin-right: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .card h3 {
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        background-color: #4aaaa4;
+        color: #ffffff;
+        font-weight: normal;
+        padding: 0.5rem;
+        position: relative;
+        top: 75%;
+        margin: 0;
+    }
+
+    #hangman {
+        background-image: url(../images/hangman.jpg);
+    }
+
+    #rpg {
+        background-image: url(../images/rpg.jpg);
+    }
+
+    #trivia {
+        background-image: url(../images/trivia.jpg);
+    }
+
+    #rutgers {
+        background-image: url(../images/rutgers.jpg);
+    }
+
+    #rps {
+        background-image: url(../images/rps.jpg);
+    }
+    
+/* Contact Styles */
+
+input, textarea {
+    margin: .5rem 0;
+    width: 100%;
+}
+
+input {
+    height: 1rem;
+}
+
+textarea {
+    height: 10rem;
+}
