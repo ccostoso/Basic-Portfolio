@@ -117,6 +117,8 @@ header div.container {
 
     footer p {
         margin: 0;
+        position: relative;
+        top: 30%;
         height: 3rem;
     }
 
