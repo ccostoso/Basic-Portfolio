@@ -156,6 +156,7 @@ header div.container {
         color: #ffffff;
         font-weight: normal;
         display: block;
+        font-size: 1.15rem;
     }
 
     #hangman {
@@ -200,4 +201,12 @@ button {
     font-size: 1rem;
     color: #ffffff;
     border: 0;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
 }
